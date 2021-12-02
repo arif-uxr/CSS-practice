@@ -1,0 +1,109 @@
+body{
+    background-color:aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+    gap: 1rem;
+    padding: 10px;
+}
+
+.nav { 
+padding: 1rem;
+}
+
+.nav:hover{
+    background-color: blueviolet;
+    
+}
+
+.flex{
+    display: flex; justify-content: center;
+}
+
+.box{
+    background-color: darkgray;
+    width: 300px;
+    border: 10px solid lightskyblue;
+    padding: 25px;
+    margin: 20px;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.h-2{
+    outline: #4caf4c solid 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 10vw;
+    color: black;
+    font-size: 30px;
+    font-family: Georgia, sans-serif;
+    
+}
+
+.lastline-align{
+    background-color: lightpink;
+    padding: 20px;
+    border: lightslategray solid 2px;
+    text-align-last: right
+}
+.shadow{
+    text-align: center;
+    border: #cccccc solid 3px;
+    padding: 25px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    color: deepskyblue;
+    text-shadow: 2px 2px 4px rgb(236, 48, 48), 0 0 5px rgb(235, 106, 106), 0 0 5px rgb(103, 249, 251);
+    text-decoration: underline;
+    
+}
+
+.material-icons{
+    font-size: 50px;
+    color: brown;
+
+
+}
+.icon{
+    text-align:center;
+    padding: 10px;
+    font-size: 50px;
+    color: #4caf4c;
+    padding: 20px 30px;
+}
+
+.button{
+    padding: 15px;
+    width: 130px;
+}
+
+.list-circle{
+    list-style-type: circle;
+    
+}
+
+.list-square{
+    list-style-type: square;
+    list-style-position: outside;
+    
+}
+
+.list-roman{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+.list-alpha{
+    list-style-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWqMXaS0zKc3AVU5X0z2ql8Qrq2YIRFTiqMw&usqp=CAU);
+    padding: 20px;
+    
+    
+
+}
